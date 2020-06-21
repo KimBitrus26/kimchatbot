@@ -46,10 +46,16 @@ def verify_fb_token(token_sent):
 
 
 def get_message():
-    sample_responses = ["You are welcome!", "How are you doing",
-                        "Stay safe!", "Bye :)"]
-    # return selected item to the user
-    return random.choice(sample_responses)
+    a = input()
+    if a == "hi":
+        print("Hello, Welcome")
+        print("Call our customer care line on 01030204232")
+    else:
+        print("Call our customer care line on 01030204232")
+    # sample_responses = ["You are welcome!", "How are you doing",
+    #                     "Stay safe!", "Bye :)"]
+    # # return selected item to the user
+    # return random.choice(sample_responses)
 
 
 # Uses PyMessenger to send response to the user
